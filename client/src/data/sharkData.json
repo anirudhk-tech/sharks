@@ -1,0 +1,458 @@
+{
+  "sharks": [
+    {
+      "id": "great-white",
+      "name": "Great White Shark",
+      "scientificName": "Carcharodon carcharias",
+      "optimalSST": {
+        "min": 12,
+        "max": 24,
+        "preferred": 18
+      },
+      "zones": {
+        "2024": {
+          "1": [
+            {
+              "id": "gw-zone-1-jan",
+              "name": "California Coast",
+              "coordinates": [
+                [-125.0, 32.0],
+                [-120.0, 32.0],
+                [-120.0, 38.0],
+                [-125.0, 38.0],
+                [-125.0, 32.0]
+              ],
+              "sst": 14.2,
+              "intensity": 0.7,
+              "description": "Winter migration patterns - lower activity"
+            }
+          ],
+          "6": [
+            {
+              "id": "gw-zone-1-jun",
+              "name": "California Coast",
+              "coordinates": [
+                [-125.0, 32.0],
+                [-120.0, 32.0],
+                [-120.0, 38.0],
+                [-125.0, 38.0],
+                [-125.0, 32.0]
+              ],
+              "sst": 15.2,
+              "intensity": 0.9,
+              "description": "Primary feeding grounds during summer months"
+            },
+            {
+              "id": "gw-zone-2-jun", 
+              "name": "Farallon Islands",
+              "coordinates": [
+                [-123.2, 37.6],
+                [-122.8, 37.6],
+                [-122.8, 37.8],
+                [-123.2, 37.8],
+                [-123.2, 37.6]
+              ],
+              "sst": 13.8,
+              "intensity": 0.95,
+              "description": "Peak activity area with highest shark density"
+            }
+          ],
+          "9": [
+            {
+              "id": "gw-zone-1-sep",
+              "name": "California Coast",
+              "coordinates": [
+                [-125.0, 32.0],
+                [-120.0, 32.0],
+                [-120.0, 38.0],
+                [-125.0, 38.0],
+                [-125.0, 32.0]
+              ],
+              "sst": 16.8,
+              "intensity": 0.95,
+              "description": "Peak season - maximum activity and migration"
+            },
+            {
+              "id": "gw-zone-2-sep", 
+              "name": "Farallon Islands",
+              "coordinates": [
+                [-123.2, 37.6],
+                [-122.8, 37.6],
+                [-122.8, 37.8],
+                [-123.2, 37.8],
+                [-123.2, 37.6]
+              ],
+              "sst": 14.2,
+              "intensity": 1.0,
+              "description": "Peak activity area with highest shark density"
+            },
+            {
+              "id": "gw-zone-3-sep",
+              "name": "Monterey Bay",
+              "coordinates": [
+                [-122.0, 36.5],
+                [-121.5, 36.5],
+                [-121.5, 37.0],
+                [-122.0, 37.0],
+                [-122.0, 36.5]
+              ],
+              "sst": 15.5,
+              "intensity": 0.8,
+              "description": "Seasonal migration corridor"
+            }
+          ],
+          "12": [
+            {
+              "id": "gw-zone-1-dec",
+              "name": "California Coast",
+              "coordinates": [
+                [-125.0, 32.0],
+                [-120.0, 32.0],
+                [-120.0, 38.0],
+                [-125.0, 38.0],
+                [-125.0, 32.0]
+              ],
+              "sst": 13.5,
+              "intensity": 0.6,
+              "description": "Winter migration - reduced activity"
+            }
+          ]
+        },
+        "2025": {
+          "1": [
+            {
+              "id": "gw-zone-1-jan-2025",
+              "name": "California Coast",
+              "coordinates": [
+                [-125.0, 32.0],
+                [-120.0, 32.0],
+                [-120.0, 38.0],
+                [-125.0, 38.0],
+                [-125.0, 32.0]
+              ],
+              "sst": 14.5,
+              "intensity": 0.75,
+              "description": "Climate change impact - warmer winter waters"
+            }
+          ],
+          "6": [
+            {
+              "id": "gw-zone-1-jun-2025",
+              "name": "California Coast",
+              "coordinates": [
+                [-125.0, 32.0],
+                [-120.0, 32.0],
+                [-120.0, 38.0],
+                [-125.0, 38.0],
+                [-125.0, 32.0]
+              ],
+              "sst": 15.8,
+              "intensity": 0.95,
+              "description": "Increased activity due to warmer waters"
+            },
+            {
+              "id": "gw-zone-2-jun-2025", 
+              "name": "Farallon Islands",
+              "coordinates": [
+                [-123.2, 37.6],
+                [-122.8, 37.6],
+                [-122.8, 37.8],
+                [-123.2, 37.8],
+                [-123.2, 37.6]
+              ],
+              "sst": 14.2,
+              "intensity": 1.0,
+              "description": "Peak activity area with highest shark density"
+            }
+          ],
+          "9": [
+            {
+              "id": "gw-zone-1-sep-2025",
+              "name": "California Coast",
+              "coordinates": [
+                [-125.0, 32.0],
+                [-120.0, 32.0],
+                [-120.0, 38.0],
+                [-125.0, 38.0],
+                [-125.0, 32.0]
+              ],
+              "sst": 17.2,
+              "intensity": 1.0,
+              "description": "Peak season - maximum activity and migration"
+            },
+            {
+              "id": "gw-zone-2-sep-2025", 
+              "name": "Farallon Islands",
+              "coordinates": [
+                [-123.2, 37.6],
+                [-122.8, 37.6],
+                [-122.8, 37.8],
+                [-123.2, 37.8],
+                [-123.2, 37.6]
+              ],
+              "sst": 14.8,
+              "intensity": 1.0,
+              "description": "Peak activity area with highest shark density"
+            },
+            {
+              "id": "gw-zone-3-sep-2025",
+              "name": "Monterey Bay",
+              "coordinates": [
+                [-122.0, 36.5],
+                [-121.5, 36.5],
+                [-121.5, 37.0],
+                [-122.0, 37.0],
+                [-122.0, 36.5]
+              ],
+              "sst": 16.0,
+              "intensity": 0.85,
+              "description": "Seasonal migration corridor"
+            }
+          ],
+          "12": [
+            {
+              "id": "gw-zone-1-dec-2025",
+              "name": "California Coast",
+              "coordinates": [
+                [-125.0, 32.0],
+                [-120.0, 32.0],
+                [-120.0, 38.0],
+                [-125.0, 38.0],
+                [-125.0, 32.0]
+              ],
+              "sst": 14.0,
+              "intensity": 0.7,
+              "description": "Warmer winter waters due to climate change"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "blue-shark",
+      "name": "Blue Shark",
+      "scientificName": "Prionace glauca",
+      "optimalSST": {
+        "min": 10,
+        "max": 20,
+        "preferred": 15
+      },
+      "zones": {
+        "2024": {
+          "1": [
+            {
+              "id": "bs-zone-1-jan",
+              "name": "Open Ocean West",
+              "coordinates": [
+                [-130.0, 35.0],
+                [-125.0, 35.0],
+                [-125.0, 40.0],
+                [-130.0, 40.0],
+                [-130.0, 35.0]
+              ],
+              "sst": 11.5,
+              "intensity": 0.5,
+              "description": "Winter deep water hunting grounds"
+            }
+          ],
+          "6": [
+            {
+              "id": "bs-zone-1-jun",
+              "name": "Open Ocean West",
+              "coordinates": [
+                [-130.0, 35.0],
+                [-125.0, 35.0],
+                [-125.0, 40.0],
+                [-130.0, 40.0],
+                [-130.0, 35.0]
+              ],
+              "sst": 12.3,
+              "intensity": 0.7,
+              "description": "Deep water hunting grounds"
+            }
+          ],
+          "9": [
+            {
+              "id": "bs-zone-1-sep",
+              "name": "Open Ocean West",
+              "coordinates": [
+                [-130.0, 35.0],
+                [-125.0, 35.0],
+                [-125.0, 40.0],
+                [-130.0, 40.0],
+                [-130.0, 35.0]
+              ],
+              "sst": 13.1,
+              "intensity": 0.8,
+              "description": "Peak season deep water activity"
+            },
+            {
+              "id": "bs-zone-2-sep",
+              "name": "Northern Migration Route",
+              "coordinates": [
+                [-127.0, 37.0],
+                [-124.0, 37.0],
+                [-124.0, 39.0],
+                [-127.0, 39.0],
+                [-127.0, 37.0]
+              ],
+              "sst": 12.8,
+              "intensity": 0.6,
+              "description": "Seasonal migration pathway"
+            }
+          ],
+          "12": [
+            {
+              "id": "bs-zone-1-dec",
+              "name": "Open Ocean West",
+              "coordinates": [
+                [-130.0, 35.0],
+                [-125.0, 35.0],
+                [-125.0, 40.0],
+                [-130.0, 40.0],
+                [-130.0, 35.0]
+              ],
+              "sst": 11.8,
+              "intensity": 0.4,
+              "description": "Winter migration - reduced activity"
+            }
+          ]
+        },
+        "2025": {
+          "1": [
+            {
+              "id": "bs-zone-1-jan-2025",
+              "name": "Open Ocean West",
+              "coordinates": [
+                [-130.0, 35.0],
+                [-125.0, 35.0],
+                [-125.0, 40.0],
+                [-130.0, 40.0],
+                [-130.0, 35.0]
+              ],
+              "sst": 12.0,
+              "intensity": 0.6,
+              "description": "Warmer winter waters - increased activity"
+            }
+          ],
+          "6": [
+            {
+              "id": "bs-zone-1-jun-2025",
+              "name": "Open Ocean West",
+              "coordinates": [
+                [-130.0, 35.0],
+                [-125.0, 35.0],
+                [-125.0, 40.0],
+                [-130.0, 40.0],
+                [-130.0, 35.0]
+              ],
+              "sst": 12.8,
+              "intensity": 0.8,
+              "description": "Increased activity due to warmer waters"
+            }
+          ],
+          "9": [
+            {
+              "id": "bs-zone-1-sep-2025",
+              "name": "Open Ocean West",
+              "coordinates": [
+                [-130.0, 35.0],
+                [-125.0, 35.0],
+                [-125.0, 40.0],
+                [-130.0, 40.0],
+                [-130.0, 35.0]
+              ],
+              "sst": 13.6,
+              "intensity": 0.9,
+              "description": "Peak season with climate change effects"
+            },
+            {
+              "id": "bs-zone-2-sep-2025",
+              "name": "Northern Migration Route",
+              "coordinates": [
+                [-127.0, 37.0],
+                [-124.0, 37.0],
+                [-124.0, 39.0],
+                [-127.0, 39.0],
+                [-127.0, 37.0]
+              ],
+              "sst": 13.3,
+              "intensity": 0.7,
+              "description": "Extended migration period"
+            }
+          ],
+          "12": [
+            {
+              "id": "bs-zone-1-dec-2025",
+              "name": "Open Ocean West",
+              "coordinates": [
+                [-130.0, 35.0],
+                [-125.0, 35.0],
+                [-125.0, 40.0],
+                [-130.0, 40.0],
+                [-130.0, 35.0]
+              ],
+              "sst": 12.3,
+              "intensity": 0.5,
+              "description": "Warmer winter waters"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "realTimeTracking": {
+    "active": true,
+    "updateInterval": 5000,
+    "sharks": [
+      {
+        "id": "great-white-tracker-1",
+        "sharkId": "great-white",
+        "name": "Great White #1",
+        "currentPosition": {
+          "lat": 37.7749,
+          "lng": -122.4194
+        },
+        "jawMotion": {
+          "current": 0.7,
+          "previous": 0.6,
+          "trend": "increasing"
+        },
+        "lastUpdate": "2024-01-15T10:30:00Z",
+        "status": "active"
+      },
+      {
+        "id": "great-white-tracker-2", 
+        "sharkId": "great-white",
+        "name": "Great White #2",
+        "currentPosition": {
+          "lat": 36.7783,
+          "lng": -119.4179
+        },
+        "jawMotion": {
+          "current": 0.4,
+          "previous": 0.8,
+          "trend": "decreasing"
+        },
+        "lastUpdate": "2024-01-15T10:30:00Z",
+        "status": "active"
+      },
+      {
+        "id": "blue-shark-tracker-1",
+        "sharkId": "blue-shark", 
+        "name": "Blue Shark #1",
+        "currentPosition": {
+          "lat": 35.2828,
+          "lng": -120.6596
+        },
+        "jawMotion": {
+          "current": 0.9,
+          "previous": 0.5,
+          "trend": "increasing"
+        },
+        "lastUpdate": "2024-01-15T10:30:00Z",
+        "status": "active"
+      }
+    ]
+  }
+}

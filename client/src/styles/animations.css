@@ -1,0 +1,155 @@
+/* Smooth transitions for shark zone animations */
+.shark-zone-transition {
+  transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.shark-zone-popup {
+  animation: fadeInUp 0.3s ease-out;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Pulse animation for loading states */
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.animate-pulse {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* Smooth hover effects for map elements */
+.map-zone-hover {
+  transition: all 0.2s ease-in-out;
+}
+
+.map-zone-hover:hover {
+  transform: scale(1.02);
+  filter: brightness(1.1);
+}
+
+/* Time slider animations */
+.time-slider-container {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.time-slider-container:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+/* Zone intensity animations */
+.zone-intensity-high {
+  animation: intensityPulse 2s ease-in-out infinite;
+}
+
+.zone-intensity-medium {
+  animation: intensityPulse 3s ease-in-out infinite;
+}
+
+.zone-intensity-low {
+  animation: intensityPulse 4s ease-in-out infinite;
+}
+
+@keyframes intensityPulse {
+  0%, 100% {
+    opacity: 0.7;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+/* Real-time tracking pulsating animations */
+@keyframes trackingPulse {
+  0% {
+    transform: scale(1);
+    opacity: 0.3;
+  }
+  50% {
+    transform: scale(1.2);
+    opacity: 0.6;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0.3;
+  }
+}
+
+.tracking-pulse {
+  animation: trackingPulse 2s ease-in-out infinite;
+}
+
+/* Jaw motion intensity animations */
+.jaw-motion-high {
+  animation: jawMotionHigh 1.5s ease-in-out infinite;
+}
+
+.jaw-motion-medium {
+  animation: jawMotionMedium 2s ease-in-out infinite;
+}
+
+.jaw-motion-low {
+  animation: jawMotionLow 3s ease-in-out infinite;
+}
+
+@keyframes jawMotionHigh {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 0.8;
+  }
+  50% {
+    transform: scale(1.3);
+    opacity: 1;
+  }
+}
+
+@keyframes jawMotionMedium {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 0.6;
+  }
+  50% {
+    transform: scale(1.15);
+    opacity: 0.9;
+  }
+}
+
+@keyframes jawMotionLow {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 0.4;
+  }
+  50% {
+    transform: scale(1.05);
+    opacity: 0.7;
+  }
+}
+
+/* Real-time status indicators */
+.live-tracking-indicator {
+  animation: livePulse 1s ease-in-out infinite;
+}
+
+@keyframes livePulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
