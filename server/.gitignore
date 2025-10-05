@@ -1,2 +1,6 @@
 venv
+venv-py39
 .vscode
+azure.env
+.netrc
+local_pipeline.log
